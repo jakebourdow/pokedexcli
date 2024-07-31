@@ -21,3 +21,5 @@ func main() {
 
 	startRepl(&cfg)
 }
+
+//todo: duplicated printing from map and explore commands. Looks into
