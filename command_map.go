@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// TODO: Add location area validation
 func commandMapf(cfg *config, args ...string) error {
 	locationsResp, err := cfg.pokeapiClient.ListLocations(cfg.nextLocationsURL)
 	if err != nil {

@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+// TODO: Add pokemon validation check
 // GetPokemon -
 func (c *Client) GetPokemon(pokemonName string) (Pokemon, error) {
 	url := baseURL + "/pokemon/" + pokemonName
